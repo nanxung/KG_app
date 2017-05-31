@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kg.cb.kg_app.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <arc.citie
+                    android:id="@+id/c_joke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:scaleType="matrix"
+                    android:onClick="one"
+                    android:src="@drawable/a2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"
+                    android:text="容浸采矿"
+                    />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                        <arc.citie
+                            android:id="@+id/a3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:onClick="two"
+                            android:scaleType="matrix"
+                            android:src="@drawable/a2" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+
+                            android:textSize="18sp"
+                            android:text="金属矿床露天开采"
+                            />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <arc.citie
+                    android:id="@+id/a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:onClick="three"
+                    android:scaleType="matrix"
+                    android:src="@drawable/a2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"
+                    android:text="金属矿床地下开采"
+                    />
+                </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+<!--<Button-->
+<!--android:id="@+id/one"-->
+<!--android:layout_width="151dp"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_gravity="center_horizontal"-->
+<!--android:layout_marginTop="20dp"-->
+<!--android:background="@drawable/button"-->
+<!--android:text="容浸采矿"-->
+<!--android:onClick="one"-->
+<!--android:textColor="@color/black"-->
+<!--android:textSize="18sp" />-->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<arc.arcActivity xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cb="http://schemas.android.com/apk/com.example.cb.client"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    cb:position="right_bottom"
+    cb:radius="140dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/composer_button">
+
+        <ImageView
+            android:id="@+id/id_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/composer_icn_plus" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_music"
+        android:tag="Music" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_place"
+        android:tag="Plase" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_sleep"
+        android:tag="Sleep" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_thought"
+        android:tag="Sun" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_with"
+        android:tag="People" />
+</arc.arcActivity>
